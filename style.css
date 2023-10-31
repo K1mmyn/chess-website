@@ -1,0 +1,30 @@
+a, button {
+   background-color: black;
+   color: white;
+   transition-duration: 500ms;
+   cursor: pointer;
+   font-family: Agbalumo;
+}
+
+a:hover, button:hover {
+   background-color: white;
+   color: black;
+   transition-duration: 500ms;
+}
+
+label, input, select, button {
+   display: block;
+   margin: 1rem;
+}
+
+input {
+   padding: 1rem;
+}
+
+select {
+   padding: 1rem 4.25rem
+}
+
+body {
+   overscroll-behavior: none;
+}
